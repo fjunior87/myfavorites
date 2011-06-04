@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>New Link</title>
+	</head>
+	<body>
+		<form method="post" action="/save_link">
+			<p>Link: <input type="text" name="link" value="{{favorite.link}}"></p>
+			<p>Title: <input type="text" name="title" value="{{favorite.title}}"></p>
+			<input type="submit" value="Save Link"/>
+			<input type="hidden" name="action" value="save_link">
+		</form>
+	</body>
+</html>
